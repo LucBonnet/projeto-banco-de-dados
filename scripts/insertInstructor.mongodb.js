@@ -1,0 +1,192 @@
+use('cc6240');
+
+db.instructor.deleteMany({});
+
+db.instructor.insertMany(
+  [{
+    "_id": ObjectId("655ba06dbd7f6680bc2310bc"),
+    "name": "Srinivasan",
+    "dept_name": "Comp. Sci.",
+    "salary": 65000,
+    "teaches": [
+      {
+        "course_id": "CS-101",
+        "sec_id": "1",
+        "semester": "Fall",
+        "year": 2017
+      },
+      {
+        "course_id": "CS-315",
+        "sec_id": "1",
+        "semester": "Spring",
+        "year": 2018
+      },
+      {
+        "course_id": "CS-347",
+        "sec_id": "1",
+        "semester": "Fall",
+        "year": 2017
+      }
+    ]
+  },
+  {
+    "_id": ObjectId("655ba06dbd7f6680bc2310bd"),
+    "name": "Wu",
+    "dept_name": "Finance",
+    "salary": 90000,
+    "teaches": [
+      {
+        "course_id": "FIN-201",
+        "sec_id": "1",
+        "semester": "Spring",
+        "year": 2018
+      }
+    ]
+  },
+  {
+    "_id": ObjectId("655ba06dbd7f6680bc2310be"),
+    "name": "Mozart",
+    "dept_name": "Music",
+    "salary": 40000,
+    "teaches": [
+      {
+        "course_id": "MU-199",
+        "sec_id": "1",
+        "semester": "Spring",
+        "year": 2018
+      }
+    ]
+  },
+  {
+    "_id": ObjectId("655ba06dbd7f6680bc2310bf"),
+    "name": "Einstein",
+    "dept_name": "Physics",
+    "salary": 95000,
+    "teaches": [
+      {
+        "course_id": "PHY-101",
+        "sec_id": "1",
+        "semester": "Fall",
+        "year": 2017
+      }
+    ]
+  },
+  {
+    "_id": ObjectId("655ba06dbd7f6680bc2310c0"),
+    "name": "ElSaid",
+    "dept_name": "History",
+    "salary": 60000,
+    "teaches": [
+      {
+        "course_id": "HIS-351",
+        "sec_id": "1",
+        "semester": "Spring",
+        "year": 2018
+      }
+    ]
+  },
+  {
+    "_id": ObjectId("655ba06dbd7f6680bc2310c1"),
+    "name": "Gold",
+    "dept_name": "Physics",
+    "salary": 87000,
+    "teaches": []
+  },
+  {
+    "_id": ObjectId("655ba06dbd7f6680bc2310c2"),
+    "name": "Katz",
+    "dept_name": "Comp. Sci.",
+    "salary": 75000,
+    "teaches": [
+      {
+        "course_id": "CS-101",
+        "sec_id": "1",
+        "semester": "Spring",
+        "year": 2018
+      },
+      {
+        "course_id": "CS-319",
+        "sec_id": "1",
+        "semester": "Spring",
+        "year": 2018
+      }
+    ]
+  },
+  {
+    "_id": ObjectId("655ba06dbd7f6680bc2310c3"),
+    "name": "Califieri",
+    "dept_name": "History",
+    "salary": 62000,
+    "teaches": []
+  },
+  {
+    "_id": ObjectId("655ba06dbd7f6680bc2310c4"),
+    "name": "Singh",
+    "dept_name": "Finance",
+    "salary": 80000,
+    "teaches": []
+  },
+  {
+    "_id": ObjectId("655ba06dbd7f6680bc2310c5"),
+    "name": "Crick",
+    "dept_name": "Biology",
+    "salary": 72000,
+    "teaches": [
+      {
+        "course_id": "BIO-101",
+        "sec_id": "1",
+        "semester": "Summer",
+        "year": 2017
+      },
+      {
+        "course_id": "BIO-301",
+        "sec_id": "1",
+        "semester": "Summer",
+        "year": 2018
+      }
+    ]
+  },
+  {
+    "_id": ObjectId("655ba06dbd7f6680bc2310c6"),
+    "name": "Brandt",
+    "dept_name": "Comp. Sci.",
+    "salary": 92000,
+    "teaches": [
+      {
+        "course_id": "CS-190",
+        "sec_id": "1",
+        "semester": "Spring",
+        "year": 2017
+      },
+      {
+        "course_id": "CS-190",
+        "sec_id": "2",
+        "semester": "Spring",
+        "year": 2017
+      },
+      {
+        "course_id": "CS-319",
+        "sec_id": "2",
+        "semester": "Spring",
+        "year": 2018
+      }
+    ]
+  },
+  {
+    "_id": ObjectId("655ba06dbd7f6680bc2310c7"),
+    "name": "Kim",
+    "dept_name": "Elec. Eng.",
+    "salary": 80000,
+    "teaches": [
+      {
+        "course_id": "EE-181",
+        "sec_id": "1",
+        "semester": "Spring",
+        "year": 2017
+      }
+    ]
+  }]
+);
+
+
+db.instructor.find({})
