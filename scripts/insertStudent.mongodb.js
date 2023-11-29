@@ -7,7 +7,7 @@ db.student.insertMany(
     {
       "_id": ObjectId("655baae9bb1f6f86f279f9db"),
       "name": "Zhang",
-      "dept_name": "Comp.Sci.",
+      "dept_name": "Comp. Sci.",
       "tot_cred": 102,
       "advisor": ObjectId("655ba06dbd7f6680bc2310bc"),
       "takes": [
@@ -30,7 +30,7 @@ db.student.insertMany(
     {
       "_id": ObjectId("655baae9bb1f6f86f279f9dc"),
       "name": "Shankar",
-      "dept_name": "Comp.Sci.",
+      "dept_name": "Comp. Sci.",
       "tot_cred": 32,
       "advisor": ObjectId("655ba06dbd7f6680bc2310bc"),
       "takes": [
@@ -145,7 +145,7 @@ db.student.insertMany(
     {
       "_id": ObjectId("655baae9bb1f6f86f279f9e1"),
       "name": "Williams",
-      "dept_name": "Comp.Sci.",
+      "dept_name": "Comp. Sci.",
       "tot_cred": 54,
       "advisor": null,
       "takes": [
@@ -192,7 +192,7 @@ db.student.insertMany(
     {
       "_id": ObjectId("655baae9bb1f6f86f279f9e4"),
       "name": "Brown",
-      "dept_name": "Comp.Sci.",
+      "dept_name": "Comp. Sci.",
       "tot_cred": 58,
       "advisor": ObjectId("655ba06dbd7f6680bc2310c2"),
       "takes": [
@@ -215,7 +215,7 @@ db.student.insertMany(
     {
       "_id": ObjectId("655baae9bb1f6f86f279f9e5"),
       "name": "Aoi",
-      "dept_name": "Elec.Eng.",
+      "dept_name": "Elec. Eng.",
       "tot_cred": 60,
       "advisor": ObjectId("655ba06dbd7f6680bc2310c7"),
       "takes": [
@@ -231,7 +231,7 @@ db.student.insertMany(
     {
       "_id": ObjectId("655baae9bb1f6f86f279f9e6"),
       "name": "Bourikas",
-      "dept_name": "Elec.Eng.",
+      "dept_name": "Elec. Eng.",
       "tot_cred": 98,
       "advisor": ObjectId("655ba06dbd7f6680bc2310c7"),
       "takes": [
